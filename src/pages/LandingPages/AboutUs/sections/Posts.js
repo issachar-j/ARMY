@@ -97,10 +97,10 @@ function Places() {
               setUImageURL(Url);
             })
             .then(() => {
-              setUid(event_name + v4());
+              setUid(event_name.split(" ").join("_") + v4());
             })
             .then(() => {
-              setDoc(doc(db, "blog_post", `${userId}`), {
+              setDoc(doc(db, "blog_post", userId), {
                 event_id: userId,
                 event_name: event_name,
                 event_body: event_body,

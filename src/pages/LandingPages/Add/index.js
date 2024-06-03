@@ -119,11 +119,11 @@ function FormSimple() {
                 setUImageURL(Url);
               })
               .then(() => {
-                setUid(FullName + v4());
+                setUid(FullName.split(" ").join("_") + v4());
               })
               .then(() => {
                 console.log(UImageURL);
-                setDoc(doc(db, "/users/", `${userId}`), {
+                setDoc(doc(db, "users", userId), {
                   user_id: userId,
                   age: Age,
                   name: FullName,
