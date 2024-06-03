@@ -1,7 +1,7 @@
 {
   "name": "a.r.m.y",
   "version": "1.1.0",
-  "private": false,
+  "private": true,
   "author": "It service sector, A.R.M.Y, G.L.C",
   "license": "no licence for now",
   "description": "A.R.M.Y official website created with Material Kit 2 by A.R.M.Y",
