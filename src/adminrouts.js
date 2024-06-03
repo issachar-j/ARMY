@@ -8,23 +8,23 @@ import Posts from "pages/LandingPages/Posts"; // Sections
 const routes = [
   {
     name: "Add Member",
-    route: "/ARMY/Admin/Add_Members",
+    route: "/Admin/Add_Members",
     component: <SignIn />,
   },
   {
     name: "Registered Members",
-    route: "/ARMY/Admin/Registered_Members",
+    route: "/Admin/Registered_Members",
     component: <Contact />,
   },
   {
     name: "Posts",
     icon: <Icon>view_day</Icon>,
-    route: "/ARMY/Admin/Posts",
+    route: "/Admin/Posts",
     component: <Posts />,
   },
   {
     name: "Contact Us",
-    route: "/ARMY/Admin/Contact",
+    route: "/Admin/Contact",
     icon: <ContactPageIcon />,
     component: <Mess />,
   },

@@ -49,8 +49,8 @@ export default function App() {
       <CssBaseline />
       <Routes>
         {getRoutes(admin ? adminrouts : routes)}
-        <Route path={admin ? "ARMY/Admin/home" : "ARMY/home"} element={<Index />} />
-        <Route path="*" element={<Navigate to={admin ? "ARMY/Admin/home" : "ARMY/home"} />} />
+        <Route path={admin ? "/Admin/home" : "/home"} element={<Index />} />
+        <Route path="*" element={<Navigate to={admin ? "/Admin/home" : "/home"} />} />
       </Routes>
     </ThemeProvider>
   );

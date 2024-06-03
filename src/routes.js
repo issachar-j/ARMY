@@ -7,12 +7,12 @@ const routes = [
   {
     name: "Posts",
     icon: <Icon>view_day</Icon>,
-    route: "/ARMY/Posts",
+    route: "/Posts",
     component: <Posts />,
   },
   {
     name: "Contact Us",
-    route: "/ARMY/Contact",
+    route: "/Contact",
     icon: <ContactPageIcon />,
     component: <Mess />,
   },
