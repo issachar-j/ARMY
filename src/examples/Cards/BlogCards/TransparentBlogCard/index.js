@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"; // prop-types is a library for typechec
 import PropTypes from "prop-types"; // @mui material components
 import Card from "@mui/material/Card";
 import Icon from "@mui/material/Icon";
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import MuiLink from "@mui/material/Link"; // Material Kit 2 React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
@@ -93,7 +94,7 @@ function TransparentBlogCard({ image, title, description, action }) {
             sx={cardActionStyles}
           >
             {action.label}
-            <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
+            <ArrowForwardIcon/>
           </MKTypography>
         ) : (
           <MKTypography
@@ -108,7 +109,7 @@ function TransparentBlogCard({ image, title, description, action }) {
             sx={cardActionStyles}
           >
             {action.label}
-            <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
+            <ArrowForwardIcon/>
           </MKTypography>
         )}
       </MKBox>

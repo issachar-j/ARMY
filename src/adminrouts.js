@@ -1,4 +1,4 @@
-import Icon from "@mui/material/Icon"; // @mui icons
+import ViewDayIcon from '@mui/icons-material/ViewDay';
 import ContactPageIcon from '@mui/icons-material/ContactPage';
 import SignIn from "pages/LandingPages/Add"; // Sections
 import Contact from "pages/LandingPages/Members"; // Sections
@@ -18,7 +18,7 @@ const routes = [
   },
   {
     name: "Posts",
-    icon: <Icon>view_day</Icon>,
+    icon: <ViewDayIcon />,
     route: "/Admin/Posts",
     component: <Posts />,
   },

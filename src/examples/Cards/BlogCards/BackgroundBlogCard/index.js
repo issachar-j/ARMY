@@ -1,5 +1,6 @@
 // react-router components
 import { Link } from "react-router-dom"; // prop-types is a library for typechecking of props
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import PropTypes from "prop-types"; // @mui material components
 import Card from "@mui/material/Card";
 import MuiLink from "@mui/material/Link";
@@ -56,7 +57,7 @@ function BackgroundBlogCard({ image, title, description, action }) {
               sx={cardActionStyles}
             >
               {action.label}
-              <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
+              <ArrowForwardIcon/>
             </MKTypography>
           ) : (
             <MKTypography
@@ -71,7 +72,7 @@ function BackgroundBlogCard({ image, title, description, action }) {
               sx={cardActionStyles}
             >
               {action.label}
-              <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
+              <ArrowForwardIcon />
             </MKTypography>
           )}
         </MKBox>
