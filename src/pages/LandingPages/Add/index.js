@@ -111,15 +111,12 @@ function FormSimple() {
       setAge(age);
       if (UploadImg) {
         const imageRef = ref(storage, `user_imgs/${UploadImg.fileName + v4()}`);
-
+        setUid(FullName.split(" ").join("_") + v4());
         uploadBytes(imageRef, UploadImg)
           .then(() => {
             getDownloadURL(imageRef)
               .then((Url) => {
                 setUImageURL(Url);
-              })
-              .then(() => {
-                setUid(FullName.split(" ").join("_") + v4());
               })
               .then(() => {
                 console.log(UImageURL);

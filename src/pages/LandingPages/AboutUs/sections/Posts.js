@@ -90,14 +90,11 @@ function Places() {
     if (arr.indexOf("") == -1) {
       if (UploadImg) {
         const imageRef = ref(storage, `post_imgs/${UploadImg.fileName + v4()}`);
-
+        setUid(event_name.split(" ").join("_") + v4());
         uploadBytes(imageRef, UploadImg).then(() => {
           getDownloadURL(imageRef)
             .then((Url) => {
               setUImageURL(Url);
-            })
-            .then(() => {
-              setUid(event_name.split(" ").join("_") + v4());
             })
             .then(() => {
               setDoc(doc(db, "blog_post", userId), {
