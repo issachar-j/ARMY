@@ -4,5 +4,13 @@
     "paths": {
       "*": ["src/*"]
     }
+  },
+  "rewrites": [],
+  "routes": [],
+  "headers": [],
+  "trailingSlash": false,
+  "optimize": {
+    "include": ["**/*.css", "**/*.js", "**/*.svg"],
+    "exclude": ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif"]
   }
 }
