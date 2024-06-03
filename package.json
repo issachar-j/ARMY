@@ -1,5 +1,5 @@
 {
-  "name": "A.R.M.Y",
+  "name": "a.r.m.y",
   "version": "1.1.0",
   "private": false,
   "author": "It service sector, A.R.M.Y, G.L.C",
@@ -73,6 +73,7 @@
     ]
   },
   "devDependencies": {
+    "ajv": "^8.14.0",
     "eslint": "8.38.0",
     "eslint-config-prettier": "8.8.0",
     "eslint-plugin-import": "2.27.5",
