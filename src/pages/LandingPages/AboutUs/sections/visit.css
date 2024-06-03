@@ -46,7 +46,7 @@
     display: none !important;
   }
   .shown{
-    display: flex !important;
+    display: flex !important; 
   }
   .white_visit{
     padding-top: 45px;
@@ -104,9 +104,11 @@
         border-radius:12px 12px 12px 12px!important;
         padding: 25px;
       }
-      .shown,
+      .shown{
+        color: #344767 !important;
+      }
       .aa {
-        color: #344767
+        color: #344767 !important;
       }
     .img_visit{
         display: none;

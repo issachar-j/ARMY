@@ -20,7 +20,6 @@ function CenteredBlogCard({ image, title, description, action }) {
           width="100%"
           position="relative"
           zIndex={1}
-          className="img"
         />
         <MKBox
           borderRadius="lg"
@@ -36,7 +35,6 @@ function CenteredBlogCard({ image, title, description, action }) {
             filter: "blur(12px)",
             backgroundSize: "cover",
           }}
-          className="bg"
         />
       </MKBox>
       <MKBox p={3} mt={-1} textAlign="center">

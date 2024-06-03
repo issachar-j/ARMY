@@ -38,7 +38,7 @@ function Team() {
             </MKTypography>
           </Grid>
         </Grid>
-        <Carousel>
+        <Carousel className="wider" >
           <MKBox mb={1} ml={2.5} mr={2.5} className="padding_top">
             <Grid container spacing={3}>
               <Grid item xs={12} lg={6}>
@@ -47,7 +47,7 @@ function Team() {
                     image={team1}
                     name="Prayer Team"
                     position={{ color: "info", label: "Colossians 4:2" }}
-                    description="Serve the load with prayer!"
+                    description="Come, speak to the Lord!"
                   />
                 </MKBox>
               </Grid>
@@ -77,7 +77,7 @@ function Team() {
                     image={team4}
                     name="Sound Team"
                     position={{ color: "info", label: "Psalm 28:7" }}
-                    description="Serve the load with your knowledge and skill!"
+                    description="Serve the load with your skill!"
                   />
                 </MKBox>
               </Grid>
@@ -111,7 +111,7 @@ function Team() {
                     image={team3}
                     name="Multimedia"
                     position={{ color: "info", label: "Psalm 100:2" }}
-                    description="Serve the load with your knowledge and skill!"
+                    description="Serve the load with your skill!"
                   />
                 </MKBox>
               </Grid>
@@ -165,7 +165,7 @@ function Team() {
                     image={team10}
                     name="IT Team"
                     position={{ color: "info", label: "2 Chronicles 26:15 " }}
-                    description="Serve the load with your knowledge and skill!"
+                    description="Serve the load with your knowledge"
                   />
                 </MKBox>
               </Grid>

@@ -13,10 +13,12 @@
     visibility: hidden !important;
 }
 .rec-arrow {
-    background-color: rgba(255, 255, 255, 0.712) !important;
-}
+    background-color: rgba(255, 255, 255, 0.0) !important;
+    width: 25px !important;
+    box-shadow: none !important;
+  }
 .rec-arrow:hover {
-    background-color: rgb(136, 136, 136) !important;
+    background-color: rgb(136, 136, 136, 0.0) !important;
 }
 .padding_top {
     padding-top: 10px;

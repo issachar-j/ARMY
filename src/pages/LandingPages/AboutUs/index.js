@@ -159,7 +159,7 @@ function AboutUs() {
             </MKTypography>
 
             <MKTypography variant="body1" color="white" opacity={1} mt={1} mb={3}>
-              Raising a youth that is full of God&apos;s word and spirit and will be a blessing to
+              Raising a youth that is full of God&apos;s word and Spirit and will be a blessing to
               the generation in all directions
             </MKTypography>
             <MKButton
