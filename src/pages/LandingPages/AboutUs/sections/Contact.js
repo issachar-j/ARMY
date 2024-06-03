@@ -11,7 +11,7 @@ function Contact() {
     <MKBox component="section" py={{ xs: 0, lg: 6 }}>
       <a
         target="blank"
-        href="http://www.google.com"
+        href="https://t.me/QueenAssaye"
         className="aLink"
         style={{ display: "none" }}
       ></a>

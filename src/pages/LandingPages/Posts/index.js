@@ -70,7 +70,7 @@ function ContactUs() {
                           description={post.event_body}
                           action={{
                             type: "external",
-                            route: "https://t.me/QueenAssaye",
+                            route: "",
                             label: "read more",
                             color: "info",
                           }}
@@ -82,7 +82,7 @@ function ContactUs() {
                           description={post.event_body}
                           action={{
                             type: "external",
-                            route: "https://t.me/QueenAssaye",
+                            route: "",
                             label: "read more",
                             color: "info",
                           }}
