@@ -1,0 +1,112 @@
+.rec-arrow:disabled {
+    visibility: hidden !important;
+}
+.rec-dot_active {
+    background-color: rgb(53, 53, 53) !important;
+    box-shadow: 0 0 1px 3px gray !important;
+    visibility: hidden !important;
+}
+.rec-dot,
+.rec-dot:focus,
+.rec-dot:hover {
+    box-shadow: 0 0 1px 3px gray !important;
+    visibility: hidden !important;
+}
+.rec-arrow {
+    background-color: rgba(255, 255, 255, 0.712) !important;
+}
+.rec-arrow:hover {
+    background-color: rgb(136, 136, 136) !important;
+}
+.padding_top {
+    padding-top: 10px;
+}
+.scrollable{
+    width: "100%" !important;
+    overflow: "auto" !important;
+    display: "flex" !important ;
+}
+.mr{
+   margin-right: 20px !important;
+}
+.upload {
+    width: 225px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed #0c467c;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.upload_new {
+    width: 225px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 7px;
+    margin-top: -20px;
+}
+.img_n{
+    width: 60px;
+    height: 60px;
+    border-radius: 0px !important;
+}
+.img_new_n{
+    width: 150px !important;
+    height: 150px !important;
+    border-radius: 7px;
+    object-fit: cover;
+}
+.txt{
+    font-size: 11 !important;
+}
+.inp_txt{
+    text-transform: capitalize;
+}
+.txt{
+    font-size: 11px !important;
+}
+.ovf{
+    overflow-y: scroll !important;
+}
+.ovf::-webkit-scrollbar {
+    display: none;
+}
+
+
+.show4{display: flex !important;}
+.show3{display: none !important;}
+.show2{display: none !important;}
+.show1{display: none !important;}
+
+@media screen and (max-width: 1150px){
+    .show4{display: none !important;}
+    .show3{display: flex !important;}
+    .show2{display: none !important;}
+    .show1{display: none !important;}
+}
+
+@media screen and (max-width: 950px){
+    .show4{display: none !important;}
+    .show3{display: none !important;}
+    .show2{display: flex !important;}
+    .show1{display: none !important;}
+}
+
+@media screen and (max-width: 650px){
+    .show4{display: none !important;}
+    .show3{display: none !important;}
+    .show2{display: none !important;}
+    .show1{display: flex !important;}
+}
+
+@media screen and (max-width: 520px) {
+    .wid{
+      width: 95% !important;
+    }
+}

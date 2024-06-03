@@ -1,0 +1,9 @@
+iframe
+{
+    display: none;
+}
+
+img 
+{
+    pointer-events: none;
+}

@@ -1,0 +1,17 @@
+.rec-arrow:disabled {
+  visibility: hidden !important;
+}
+.rec-dot_active {
+  background-color: rgba(255, 255, 255, 0.712) !important;
+  box-shadow: 0 0 1px 3px gray !important;
+}
+.rec-dot:focus,
+.rec-dot:hover {
+  box-shadow: 0 0 1px 3px gray !important;
+}
+.rec-arrow {
+  background-color: rgba(255, 255, 255, 0.712) !important;
+}
+.padding_top {
+  padding-top: 10px;
+}

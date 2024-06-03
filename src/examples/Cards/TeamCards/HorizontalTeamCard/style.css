@@ -1,0 +1,9 @@
+.cover {
+  object-fit: cover;
+  min-height: 100%;
+}
+@media screen and (max-width: 800px){
+  .hd{
+    display: none !important;
+  }
+}

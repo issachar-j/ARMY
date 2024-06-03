@@ -1,0 +1,15 @@
+{
+  "name": "Anointed.Reigning.Mighty.Youth",
+  "short_name": "A.R.M.Y",
+  "icons": [
+    {
+      "src": "title.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#1A73E8",
+  "background_color": "#ffffff"
+}
