@@ -166,8 +166,8 @@ function FormSimple() {
       <BaseLayout
         title="Register new members"
         breadcrumb={[
-          { label: "Home", route: "/ARMY/home" },
-          { label: "Registered members", route: "/ARMY/Admin/Registered_Members" },
+          { label: "Home", route: "/home" },
+          { label: "Registered members", route: "/Admin/Registered_Members" },
           { label: "Add members" },
         ]}
       >

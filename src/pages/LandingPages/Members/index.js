@@ -207,8 +207,8 @@ function ContactUs() {
       <BaseLayout
         title="Registered members"
         breadcrumb={[
-          { label: "Home", route: "/ARMY/home" },
-          { label: "Add members", route: "/ARMY/Admin/Add_Members" },
+          { label: "Home", route: "/home" },
+          { label: "Add members", route: "/Admin/Add_Members" },
           { label: "Registered members" },
         ]}
       >

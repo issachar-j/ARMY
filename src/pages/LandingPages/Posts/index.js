@@ -37,7 +37,7 @@ function ContactUs() {
     <>
       <BaseLayout
         title="Posts"
-        breadcrumb={[{ label: "Home", route: "/ARMY/home" }, { label: "Posts" }]}
+        breadcrumb={[{ label: "Home", route: "/home" }, { label: "Posts" }]}
       >
         <Grid
           container
