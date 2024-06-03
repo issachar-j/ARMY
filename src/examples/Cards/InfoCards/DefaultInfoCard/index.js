@@ -4,10 +4,10 @@ import PropTypes from "prop-types";
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
-import SERVICE from "/assets/images/i-service.png";
-import LESSON from "/assets/images/i-lesson.png";
-import BIBLE from "/assets/images/i-bible.png";
-import HUG from "/assets/images/i-hug.png";
+import SERVICE from "assets/images/i-service.png";
+import LESSON from "assets/images/i-lesson.png";
+import BIBLE from "assets/images/i-bible.png";
+import HUG from "assets/images/i-hug.png";
 import "./index.css";
 function DefaultInfoCard({ color, icon, title, description, direction, small }) {
   return (

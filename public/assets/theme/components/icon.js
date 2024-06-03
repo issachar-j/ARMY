@@ -1,5 +1,5 @@
 // Material Kit 2 React helper functions
-import pxToRem from "/assets/theme/functions/pxToRem";
+import pxToRem from "assets/theme/functions/pxToRem";
 export default {
   defaultProps: {
     baseClassName: "material-icons-round",

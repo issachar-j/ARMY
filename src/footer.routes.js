@@ -3,7 +3,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import MKTypography from "components/MKTypography";
-import logoCT from "/assets/images/logos/armyLogo.png";
+import logoCT from "assets/images/logos/armyLogo.png";
 import InstagramIcon from "@mui/icons-material/Instagram";
 const date = new Date().getFullYear();
 export default {

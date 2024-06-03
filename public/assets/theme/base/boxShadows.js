@@ -3,8 +3,8 @@
  * You can add new box-shadow using this file.
  * You can customized the box-shadow for the entire Material Kit 2 React using thie file.
  */ // Material Kit 2 React Base Styles
-import colors from "/assets/theme/base/colors"; // Material Kit 2 React Helper Functions
-import boxShadow from "/assets/theme/functions/boxShadow";
+import colors from "assets/theme/base/colors"; // Material Kit 2 React Helper Functions
+import boxShadow from "assets/theme/functions/boxShadow";
 const { black, white, tabs, coloredShadows } = colors;
 export default {
   xs: boxShadow([0, 2], [9, -5], black.main, 0.15),

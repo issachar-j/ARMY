@@ -1,7 +1,7 @@
 // Material Kit 2 React base styles
-import colors from "/assets/theme/base/colors"; // Material Kit 2 React helper functions
-import rgba from "/assets/theme/functions/rgba";
-import pxToRem from "/assets/theme/functions/pxToRem";
+import colors from "assets/theme/base/colors"; // Material Kit 2 React helper functions
+import rgba from "assets/theme/functions/rgba";
+import pxToRem from "assets/theme/functions/pxToRem";
 const { dark, white } = colors;
 export default {
   styleOverrides: {

@@ -4,7 +4,7 @@ import MKBox from "components/MKBox";
 import MKInput from "components/MKInput";
 import MKButton from "components/MKButton";
 import MKTypography from "components/MKTypography"; // Images
-import bgImage from "/assets/bg/6.jpg";
+import bgImage from "assets/bg/6.jpg";
 
 function Contact() {
   return (

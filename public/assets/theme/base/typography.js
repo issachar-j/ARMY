@@ -3,8 +3,8 @@
  * You can add new typography style using this file.
  * You can customized the typography styles for the entire Material Kit 2 React using thie file.
  */ // Material Kit 2 React Base Styles
-import colors from "/assets/theme/base/colors"; // Material Kit 2 React Helper Functions
-import pxToRem from "/assets/theme/functions/pxToRem";
+import colors from "assets/theme/base/colors"; // Material Kit 2 React Helper Functions
+import pxToRem from "assets/theme/functions/pxToRem";
 const { dark } = colors;
 const baseProperties = {
   fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',

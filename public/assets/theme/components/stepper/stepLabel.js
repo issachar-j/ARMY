@@ -1,8 +1,8 @@
 // Material Kit 2 React base styles
-import typography from "/assets/theme/base/typography";
-import colors from "/assets/theme/base/colors"; // Material Kit 2 React helper functions
-import pxToRem from "/assets/theme/functions/pxToRem";
-import rgba from "/assets/theme/functions/rgba";
+import typography from "assets/theme/base/typography";
+import colors from "assets/theme/base/colors"; // Material Kit 2 React helper functions
+import pxToRem from "assets/theme/functions/pxToRem";
+import rgba from "assets/theme/functions/rgba";
 const { size, fontWeightRegular } = typography;
 const { white } = colors;
 export default {

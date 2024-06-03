@@ -1,6 +1,6 @@
 // Material Kit 2 React base styles
-import breakpoints from "/assets/theme/base/breakpoints"; // Material Kit 2 React helper functions
-import pxToRem from "/assets/theme/functions/pxToRem";
+import breakpoints from "assets/theme/base/breakpoints"; // Material Kit 2 React helper functions
+import pxToRem from "assets/theme/functions/pxToRem";
 const {
   values: { sm, md, lg, xl, xxl },
 } = breakpoints;

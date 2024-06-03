@@ -1,6 +1,6 @@
 // Material Kit 2 React base styles
-import colors from "/assets/theme/base/colors"; // Material Kit 2 React helper functions
-import rgba from "/assets/theme/functions/rgba";
+import colors from "assets/theme/base/colors"; // Material Kit 2 React helper functions
+import rgba from "assets/theme/functions/rgba";
 const { info, white, gradients } = colors;
 export default {
   ".flatpickr-day:hover, .flatpickr-day:focus, .flatpickr-day.nextMonthDay:hover, .flatpickr-day.nextMonthDay:focus":
