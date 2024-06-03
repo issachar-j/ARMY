@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import { ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
-import theme from "assets/theme";
+import theme from "/assets/theme";
 import Index from "pages/LandingPages/AboutUs";
 import routes from "routes";
 import adminrouts from "./adminrouts.js";

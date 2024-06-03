@@ -15,8 +15,8 @@ import Contact from "./sections/Contact.js"; // Routes
 import routes from "routes";
 import adminrouts from "../../../adminrouts.js";
 import footerRoutes from "footer.routes"; // Images
-import bgImage from "assets/images/bg-about-us.jpg";
-import aLogo from "assets/images/logos/armyLogo.png";
+import bgImage from "/assets/images/bg-about-us.jpg";
+import aLogo from "/assets/images/logos/armyLogo.png";
 import Modal from "@mui/material/Modal";
 import Divider from "@mui/material/Divider";
 import Slide from "@mui/material/Slide"; // @mui icons
@@ -32,7 +32,7 @@ import VisibilityOff from "@mui/icons-material/VisibilityOff";
 import MKAlert from "components/MKAlert";
 
 import "./index.css";
-// import logo from "assets/images/logos/logo.png";// custom css
+// import logo from "/assets/images/logos/logo.png";// custom css
 
 // import {
 //   // onSnapshot,

@@ -1,7 +1,7 @@
 import MKBox from "components/MKBox";
-import img from "assets/images/13.jpg";
+import img from "/assets/images/13.jpg";
 import MKTypography from "components/MKTypography";
-import map from "assets/icons/map.png";
+import map from "/assets/icons/map.png";
 import "./visit.css";
 function Visit() {
   return (

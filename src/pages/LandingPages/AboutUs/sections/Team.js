@@ -3,18 +3,18 @@ import Grid from "@mui/material/Grid"; // Material Kit 2 React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography"; // Material Kit 2 React examples
 import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard"; // Images
-import team1 from "assets/custom/choir2.jpg";
-import team2 from "assets/custom/choir3.jpg";
-import team3 from "assets/bg/5.jpg";
-import team4 from "assets/bg/14.jpg";
-import team5 from "assets/custom/band.jpg";
-import team6 from "assets/custom/chero1.jpg";
-import team7 from "assets/custom/cleaning.jpg";
-import team8 from "assets/custom/deacon.jpg";
-import team9 from "assets/custom/ent1.jpg";
-import team10 from "assets/custom/it.jpg";
-// import team11 from "assets/custom/choir3.jpg";
-// import team12 from "assets/custom/choir3.jpg";
+import team1 from "/assets/custom/choir2.jpg";
+import team2 from "/assets/custom/choir3.jpg";
+import team3 from "/assets/bg/5.jpg";
+import team4 from "/assets/bg/14.jpg";
+import team5 from "/assets/custom/band.jpg";
+import team6 from "/assets/custom/chero1.jpg";
+import team7 from "/assets/custom/cleaning.jpg";
+import team8 from "/assets/custom/deacon.jpg";
+import team9 from "/assets/custom/ent1.jpg";
+import team10 from "/assets/custom/it.jpg";
+// import team11 from "/assets/custom/choir3.jpg";
+// import team12 from "/assets/custom/choir3.jpg";
 import Carousel from "react-elastic-carousel";
 import "./Team.css";
 function Team() {

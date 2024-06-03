@@ -12,7 +12,7 @@ import MKBox from "components/MKBox";
 import MKAlert from "components/MKAlert";
 import MKButton from "components/MKButton";
 import MKTypography from "components/MKTypography"; // Material Kit 2 React base styles
-import colors from "assets/theme/base/colors";
+import colors from "/assets/theme/base/colors";
 function View({ children, code, title, height, ...rest }) {
   const { grey } = colors;
   const [activeTab, setActiveTab] = useState(0);

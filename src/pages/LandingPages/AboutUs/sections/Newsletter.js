@@ -4,7 +4,7 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 import MKInput from "components/MKInput";
 import MKButton from "components/MKButton"; // Images
-import macbook from "assets/images/macbook.png";
+import macbook from "/assets/images/macbook.png";
 function Newsletter() {
   return (
     <MKBox component="section" pt={6} my={6}>
