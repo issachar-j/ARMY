@@ -62,7 +62,7 @@ function ContactUs() {
               {page_one.length > 0 ? (
                 <Grid container spacing={3}>
                   {page_one.map((post) => (
-                    <Grid item xs={12} sm={6} lg={3}>
+                    <Grid key={post.event_id} item xs={12} sm={6} lg={3}>
                       {post.blog_type_full ? (
                         <BackgroundBlogCard
                           image={post.event_image}

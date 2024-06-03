@@ -172,7 +172,7 @@ function Places() {
             <Grid container style={{ width: "90vw", alignSelf: "center" }} spacing={3}>
               <Carousel itemsToShow={4} className="show4">
                 {page_one.map((post) => (
-                  <Grid item xs={12} sm={12} lg={12} className="mr">
+                  <Grid key={post.event_id} item xs={12} sm={12} lg={12} className="mr">
                     {post.blog_type_full ? (
                       <BackgroundBlogCard
                         className="mr"
@@ -205,7 +205,7 @@ function Places() {
               </Carousel>
               <Carousel itemsToShow={3} className="show3">
                 {page_one.map((post) => (
-                  <Grid item xs={12} sm={12} lg={12} className="mr">
+                  <Grid key={post.event_id} item xs={12} sm={12} lg={12} className="mr">
                     {post.blog_type_full ? (
                       <BackgroundBlogCard
                         className="mr"
@@ -238,7 +238,7 @@ function Places() {
               </Carousel>
               <Carousel itemsToShow={2} className="show2">
                 {page_one.map((post) => (
-                  <Grid item xs={12} sm={12} lg={12} className="mr">
+                  <Grid key={post.event_id} item xs={12} sm={12} lg={12} className="mr">
                     {post.blog_type_full ? (
                       <BackgroundBlogCard
                         className="mr"
@@ -271,7 +271,7 @@ function Places() {
               </Carousel>
               <Carousel itemsToShow={1} className="show1">
                 {page_one.map((post) => (
-                  <Grid item xs={12} sm={12} lg={12} className="mr">
+                  <Grid key={post.event_id} item xs={12} sm={12} lg={12} className="mr">
                     {post.blog_type_full ? (
                       <BackgroundBlogCard
                         className="mr"
@@ -306,7 +306,7 @@ function Places() {
           ) : (
             <Grid container spacing={3}>
               {page_one.map((post) => (
-                <Grid item xs={12} sm={6} lg={3}>
+                <Grid key={post.event_id} item xs={12} sm={6} lg={3}>
                   {post.blog_type_full ? (
                     <BackgroundBlogCard
                       image={post.event_image}
