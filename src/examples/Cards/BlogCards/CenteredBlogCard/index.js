@@ -6,7 +6,6 @@ import MuiLink from "@mui/material/Link"; // Material Kit 2 React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 import MKButton from "components/MKButton";
-import img from "assets/images/logos/glcLogo.png";
 import "./style.css"
 
 function CenteredBlogCard({ image, title, description, action }) {
