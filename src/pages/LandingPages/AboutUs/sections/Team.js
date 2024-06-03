@@ -13,8 +13,6 @@ import team7 from "assets/custom/cleaning.jpg";
 import team8 from "assets/custom/deacon.jpg";
 import team9 from "assets/custom/ent1.jpg";
 import team10 from "assets/custom/it.jpg";
-// import team11 from "assets/custom/choir3.jpg";
-// import team12 from "assets/custom/choir3.jpg";
 import Carousel from "react-elastic-carousel";
 import "./Team.css";
 function Team() {

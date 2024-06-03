@@ -127,6 +127,7 @@ function AboutUs() {
           display: "grid",
           placeItems: "center",
         }}
+        className="g_img"
       >
         <Container>
           <Grid

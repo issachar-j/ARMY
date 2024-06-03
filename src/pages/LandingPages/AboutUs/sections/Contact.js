@@ -5,7 +5,7 @@ import MKInput from "components/MKInput";
 import MKButton from "components/MKButton";
 import MKTypography from "components/MKTypography"; // Images
 import bgImage from "assets/bg/6.jpg";
-
+import "./contact.js"
 function Contact() {
   return (
     <MKBox component="section" py={{ xs: 0, lg: 6 }}>
@@ -43,6 +43,7 @@ function Contact() {
                     )}, url(${bgImage})`,
                   backgroundSize: "cover",
                 }}
+                className="con_img"
               >
                 <MKBox
                   display="flex"

@@ -6,6 +6,8 @@ import MuiLink from "@mui/material/Link"; // Material Kit 2 React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 import MKButton from "components/MKButton";
+import img from "assets/images/logos/glcLogo.png";
+import "./style.css"
 
 function CenteredBlogCard({ image, title, description, action }) {
   return (
@@ -19,6 +21,7 @@ function CenteredBlogCard({ image, title, description, action }) {
           width="100%"
           position="relative"
           zIndex={1}
+          className="img"
         />
         <MKBox
           borderRadius="lg"
@@ -34,6 +37,7 @@ function CenteredBlogCard({ image, title, description, action }) {
             filter: "blur(12px)",
             backgroundSize: "cover",
           }}
+          className="bg"
         />
       </MKBox>
       <MKBox p={3} mt={-1} textAlign="center">
