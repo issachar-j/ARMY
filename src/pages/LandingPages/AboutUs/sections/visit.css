@@ -1,4 +1,7 @@
 .bg_visit{
+  max-width: 95vw !important;
+  min-width: 95vw !important;
+  align-self: center !important;
   padding: 70px 0px !important;
   display: flex !important;
   flex-direction: row !important;

@@ -1,3 +1,8 @@
+.bg_team{
+  max-width: 95vw !important;
+  min-width: 95vw !important;
+  align-self: center !important;
+}
 .rec-arrow:disabled {
   visibility: hidden !important;
 }

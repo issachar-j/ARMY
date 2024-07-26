@@ -18,6 +18,7 @@ import "./Team.css";
 function Team() {
   return (
     <MKBox
+      className="bg_team"
       component="section"
       variant="gradient"
       bgColor="dark"

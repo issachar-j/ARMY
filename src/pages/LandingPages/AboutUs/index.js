@@ -15,7 +15,7 @@ import Contact from "./sections/Contact.js"; // Routes
 import routes from "routes";
 import adminrouts from "../../../adminrouts.js";
 import footerRoutes from "footer.routes"; // Images
-import bgImage from "assets/images/bg-about-us.jpg";
+// import bgImage from "assets/images/bg-about-us.jpg";
 import aLogo from "assets/images/logos/armyLogo.png";
 import Modal from "@mui/material/Modal";
 import Divider from "@mui/material/Divider";
@@ -30,6 +30,9 @@ import FormControl from "@mui/material/FormControl";
 import Visibility from "@mui/icons-material/Visibility";
 import VisibilityOff from "@mui/icons-material/VisibilityOff";
 import MKAlert from "components/MKAlert";
+import Cards from "./sections/cards"
+import Info from "./sections/info"
+import bgImage from "assets/images/illustrations/bg12.jpg";
 
 import "./index.css";
 // import logo from "assets/images/logos/logo.png";// custom css
@@ -95,19 +98,19 @@ function AboutUs() {
   const toggleLog = () => setLogIn(!LogIn);
 
   const [showPassword, setShowPassword] = React.useState(false);
+  const handleClickShowPassword = () => setShowPassword((show) => !show);
 
   const [Sign_In_Name, setName] = useState("");
   const [Sign_In_Email, setEmail] = useState("");
   const [Sign_In_Password, setPassword] = useState("");
 
-  const handleClickShowPassword = () => setShowPassword((show) => !show);
 
   const handleMouseDownPassword = (event: React.MouseEvent<HTMLButtonElement>) => {
     event.preventDefault();
   };
   return (
     <>
-      <DefaultNavbar
+      {/* <DefaultNavbar
         routes={admin ? adminrouts : routes}
         // transparent
         light
@@ -141,7 +144,7 @@ function AboutUs() {
             sx={{ mx: "auto", textAlign: "center" }}
             className="card_main"
           >
-            {/* <img src={aLogo} alt="img" className="LogoImage"></img> */}
+            <img src={aLogo} alt="img" className="LogoImage"></img>
             <MKTypography variant="h2" color="white" opacity={1} mt={1} mb={0} className="mb large">
               <div className="showup">
                 <b className="gradtxt">A</b>nointed .
@@ -172,8 +175,65 @@ function AboutUs() {
             </MKButton>
           </Grid>
         </Container>
+      </MKBox> */}
+      <MKBox component="header" position="relative" className="whole">
+      <MKBox className="transparent pos" variant="gradient" bgColor="dark" shadow="sm" py={0.25}>
+        <DefaultNavbar
+          routes={admin ? adminrouts : routes}
+          action={{
+            type: "internal",
+            route: "",
+            label: "Sign In",
+            color: "info",
+          }}
+          transparent
+          relative
+          light
+          center
+          brand={<img src={aLogo} className="MainLogo"></img>}
+        />
       </MKBox>
-      <Card
+      <MKBox
+        display="flex"
+        alignItems="center"
+        justifyContent="center"
+        flexDirection="column"
+        minHeight="93vh"
+        minWidth="100vw"
+        sx={{
+          backgroundImage: ({ palette: { gradients }, functions: { linearGradient, rgba } }) =>
+            `${linearGradient(
+              rgba(gradients.dark.main, 0.5),
+              rgba(gradients.dark.state, 0.5) 
+            )}, url(${bgImage})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        <div className="promo">
+          <MKTypography className="font-2" variant="h1" color="white" opacity={1} mt={1} mb={0}>
+            <b className="gradtxt">MAKE YOUR SUMMER</b>
+          </MKTypography>
+          <MKTypography className="font-2 mar" variant="h3" color="white" opacity={1} mt={1} mb={0}>
+            unforgatable !!
+          </MKTypography>
+        </div>
+      </MKBox>
+      <MKBox className="body">
+        <Info/>
+        <Cards/>
+        <Information />
+        <Visit />
+        <Team />
+        <Posts />
+        <Contact />
+      </MKBox>
+      <div className="ill1"></div>
+      <div className="ill2"></div>
+      <div className="ill3"></div>
+      <div className="bg-cover"></div>
+    </MKBox>
+      {/* <Card
         sx={{
           p: 2,
           mx: { xs: 2, lg: 3 },
@@ -187,7 +247,7 @@ function AboutUs() {
         <Team />
         <Posts />
         <Contact />
-      </Card>
+      </Card> */}
       <MKBox pt={6} px={1} mt={6}>
         <DefaultFooter content={footerRoutes} />
       </MKBox>
