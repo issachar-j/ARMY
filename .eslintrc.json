@@ -12,5 +12,13 @@
     "sourceType": "module"
   },
   "plugins": ["react"],
+  "rules": {
+    "no-console": "warn",
+    "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off",
+    "no-unused-vars": "off",
+    "react/display-name": "off",
+    "react/jsx-no-duplicate-props": "off"
+  },
   "settings": { "import/resolver": { "node": { "paths": ["public"] } } }
 }
