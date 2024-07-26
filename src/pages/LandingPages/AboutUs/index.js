@@ -105,7 +105,7 @@ function AboutUs() {
   const [Sign_In_Password, setPassword] = useState("");
 
 
-  const handleMouseDownPassword = (event: React.MouseEvent<HTMLButtonElement>) => {
+  const handleMouseDownPassword = (event) => {
     event.preventDefault();
   };
   return (
