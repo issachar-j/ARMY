@@ -71,7 +71,7 @@ function Contact() {
                         ml={2}
                         fontWeight="regular"
                       >
-                        (+251) 912 065 656
+                        (+251) 929 343 015
                       </MKTypography>
                     </MKBox>
                     <MKBox display="flex" color="white" p={1}>

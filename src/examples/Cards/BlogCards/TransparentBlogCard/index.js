@@ -6,6 +6,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import MuiLink from "@mui/material/Link"; // Material Kit 2 React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
+import "./styles.css"
 function TransparentBlogCard({ image, title, description, action }) {
   const cardActionStyles = {
     display: "flex",
@@ -23,7 +24,7 @@ function TransparentBlogCard({ image, title, description, action }) {
   const imageTemplate = (
     <MKBox position="relative" borderRadius="lg">
       <MKBox
-        className="bg"
+        className="bg_lcv"
         component="img"
         src={image}
         alt={title}
@@ -79,7 +80,7 @@ function TransparentBlogCard({ image, title, description, action }) {
             </MKTypography>
           </MuiLink>
         )}
-        <MKTypography variant="body2" component="p" color="text" mb={3}>
+        <MKTypography className="newnew" variant="body2" component="p" color="text" mb={3}>
           {description}
         </MKTypography>
         {action.type === "internal" ? (

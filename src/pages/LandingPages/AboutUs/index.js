@@ -32,7 +32,7 @@ import VisibilityOff from "@mui/icons-material/VisibilityOff";
 import MKAlert from "components/MKAlert";
 import Cards from "./sections/cards"
 import Info from "./sections/info"
-import bgImage from "assets/images/illustrations/bg12.jpg";
+import bgImage from "assets/images/illustrations/bg1.jpg";
 
 import "./index.css";
 // import logo from "assets/images/logos/logo.png";// custom css
@@ -180,12 +180,6 @@ function AboutUs() {
       <MKBox className="transparent pos" variant="gradient" bgColor="dark" shadow="sm" py={0.25}>
         <DefaultNavbar
           routes={admin ? adminrouts : routes}
-          action={{
-            type: "internal",
-            route: "",
-            label: "Sign In",
-            color: "info",
-          }}
           transparent
           relative
           light

@@ -12,11 +12,6 @@ const routes = [
     component: <SignIn />,
   },
   {
-    name: "Registered Members",
-    route: "/Admin/Registered_Members",
-    component: <Contact />,
-  },
-  {
     name: "Posts",
     icon: <Icon>dashboard</Icon>,
     route: "/Admin/Posts",

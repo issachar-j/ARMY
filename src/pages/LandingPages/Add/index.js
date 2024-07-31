@@ -164,7 +164,7 @@ function FormSimple() {
         title="Register new members"
         breadcrumb={[
           { label: "Home", route: "/home" },
-          { label: "Registered members", route: "/Admin/Registered_Members" },
+          // { label: "Registered members", route: "/Admin/Registered_Members" }
           { label: "Add members" },
         ]}
       >
@@ -443,7 +443,7 @@ function FormSimple() {
                       color="dark"
                       fullWidth
                       onClick={() => {
-                        handelClick();
+                        window.alert("function under mentainance");
                       }}
                     >
                       Add Member

@@ -3,7 +3,7 @@
     z-index: 5;
 }
 .card{
-    width: 320px;
+    width: 100% !important;
     height: 340px !important;
     border-radius: 12px !important;
     display: flex;
@@ -11,7 +11,7 @@
     background-color: #6d8f02;
 }
 .card-2{
-    width: 320px;
+    width: 100% !important;
     height: 340px !important;
     border-radius: 12px !important;
     display: flex;
@@ -19,7 +19,7 @@
     background-color: #bb3625;
 }
 .card-3{
-    width: 320px;
+    width: 100% !important;
     height: 340px !important;
     border-radius: 12px !important;
     display: flex;
@@ -62,12 +62,15 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    padding: 10px;
 }
 .pad{
     padding: 0px !important;
     width: auto !important;
     max-width: 280px !important;
     margin-bottom: 20px !important;
+    row-gap: 10px !important;
+    column-gap: 30px !important;
 }
 @media screen and (max-width: 385px) {
     .card {

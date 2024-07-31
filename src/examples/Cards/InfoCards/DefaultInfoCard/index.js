@@ -68,6 +68,7 @@ function DefaultInfoCard({ color, icon, title, description, direction, small }) 
         color="text"
         pr={direction === "left" ? 6 : 0}
         pl={direction === "right" ? 6 : 0}
+        className="stst"
       >
         {description}
       </MKTypography>

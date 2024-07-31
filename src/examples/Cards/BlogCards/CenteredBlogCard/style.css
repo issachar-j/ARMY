@@ -5,6 +5,5 @@
 .bg{
     background-image: url(assets/images/logos/glcLogo.png);
     transform: scale(0.94);
-    filter: blur(12px);
     object-fit: cover;
 }

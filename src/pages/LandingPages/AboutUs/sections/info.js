@@ -40,8 +40,7 @@ function Info() {
             <div className="info-header">- summer camp -</div>
             <div className="info-title">Change your life with one week!</div>
             <div className="info-body">
-              lorem ipsum demo text lorem ipsum demo text lorem ipsum demo text lorem ipsum demo
-              text
+              Learn and grow with the word of God with us at the annual week-long summer camp hosted by A.R.M.Y GLC!!
             </div>
           </div>
           <Grid className="padding" item xs={12} lg={4} sx={{ mx: "auto" }}>
@@ -56,12 +55,12 @@ function Info() {
                     Presence of God
                   </>
                 }
-                description="Lorum ipsum dior salvador demo text Lorum ipsum dior salvador demo text Lorum ipsum dior salvador demo text."
+                description="A week of for the spirit!! A week of renewal! a week of change!"
               />
               <RotatingCardBack
                 image={bgBack}
                 title="Have A Better Life!"
-                description="Lorum ipsum dior salvador demo textLorum ipsum dior salvador demo textLorum ipsum dior salvador demo textLorum ipsum dior salvador demo text."
+                description="Register today and let the word of God and his divine Spirit transform your life!!."
                 action={{
                   type: "internal",
                   route: "",
